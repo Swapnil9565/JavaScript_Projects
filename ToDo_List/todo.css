@@ -50,8 +50,15 @@ body{
     margin-top: 5vh;
 }
 .list-container ul li{
-       list-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
        
+}
+.list-container ul li input[type="checkbox"]{
+      width: 5vw;
+      height: 5vh;
 }
 .list-container ul li input{
     border: none;
