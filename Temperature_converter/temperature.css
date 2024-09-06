@@ -1,0 +1,44 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+.container{
+    background:linear-gradient(to left bottom,lightgreen, lightblue );
+    width: 20vw;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    border-radius: 7px;
+
+}
+.heading h2{
+    text-align: center;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+.inputBox label{
+    padding: 5px 0px 5px 0px;
+}
+input{
+    border-radius: 3px;
+    border: none;
+    padding: 6px 2px 6px 2px;
+}
+.copyright{
+    margin-top: 30px;
+
+}
+.copyright p{
+     font-size: small;
+     text-align: center;
+}

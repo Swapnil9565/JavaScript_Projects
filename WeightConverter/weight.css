@@ -1,0 +1,66 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(45deg, #c6fb3f, #f305db);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 500px;
+    min-width: 400px;
+    padding: 10px 20px 10px 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border:1px solid transparent;
+    border-radius: 6px;
+}
+h1{
+    text-align: center;
+}
+.inputBox{
+    text-align: center;
+}
+.inputBox input{
+   padding: 5px;
+   border-color: rgba(255, 255, 255, 0.5);
+   border-radius: 5px;
+   text-align: center;
+   font-size: medium;
+   outline: none;
+}
+select{
+    border-radius: 0.35rem;
+    padding: 0.4rem;
+    background-color: lightblue;
+}
+select:focus{
+    outline: none;
+}
+label{
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+#btn{
+    letter-spacing: 1px;
+    padding:0.5rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(26, 15, 50);
+    color:#fff;
+    cursor: pointer;
+}
+#result{
+         font-weight: bolder;
+}
+.disabled-inputField{
+    margin: 2rem 0rem;
+    padding: 1rem;
+}
+.disabled-inputField input{
+    background: #dcd7d0;
+    border: none;
+    padding: 0.5rem 0rem;
+}

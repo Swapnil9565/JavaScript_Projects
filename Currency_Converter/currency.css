@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+.container{
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #27095c;
+    color: wheat;
+    box-shadow: 0px 0px 8px 0px black;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 37px;
+}
+.inputField{
+   margin: 20px 0px 20px 0px;
+}
+.currency-dropDown{
+    padding: 7px;
+    background-color: #c0c0c0;
+    /* color: white; */
+    border-radius: 4px;
+}
+.currency-dropDown:focus{
+    outline: none;
+}
+input{
+    width: 200px;
+    padding: 7px;
+    margin-top: 7px;
+
+}
+h4{
+    text-align: center;
+}
+#currency-input{
+    background-color: white;
+}

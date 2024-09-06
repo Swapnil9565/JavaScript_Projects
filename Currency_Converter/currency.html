@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="currency.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="inputField">
+        <select name="currency-dropDown" class="currency-dropDown" id="Currency-dropdown1">
+            <option value="select currency">Select Currency</option>
+            <option value="INR" id="inr">Indian Rupee INR</option>
+            <option value="USD" id="usd">US Dollar USD</option>
+            <option value="EUR" id="eur">Euro EUR</option>
+            <option value="JPY" id="jpy">Japanesse Yen JPY</option>
+            <option value="AUD" id="aud">Australian Dollar AUD</option>
+            <option value="CNY" id="cny">Chinese Yuan CNY</option>
+        </select>
+        
+        <input type="number" id="user-input" onchange="currencyConverter()">
+    </div>
+    <div class="inputField">
+        <select name="currency-dropDown" class="currency-dropDown" id="Currency-dropdown2">
+            <option value="select currency">Select Currency</option>
+            <option value="INR" id="inr1">Indian Rupee INR</option>
+            <option value="USD" id="usd1">US Dollar USD</option>
+            <option value="EUR" id="eur1">Euro EUR</option>
+            <option value="JPY" id="jpy1">Japanesse Yen JPY</option>
+            <option value="AUD" id="aud1">Australian Dollar AUD</option>
+            <option value="CNY" id="cny1">Chinese Yuan CNY</option>
+        </select>
+        <input type="number" id="currency-input" disabled>
+    </div>
+      <div>
+        <h4 id="currency-info"></h4>
+      </div>
+    </div>
+
+
+    <script src="currency.js"></script> 
+</body>
+</html>

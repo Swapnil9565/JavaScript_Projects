@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e4e2e0;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 2rem;
+   background-color: #633fb0;
+   
+}
+.logo h1{
+    font-size: 1.75rem; 
+    color: white;
+}
+span{
+    font-size: 2rem; 
+    margin-bottom: 0.25rem;
+    color: palevioletred;
+}
+.search-input input{
+    padding: 0.5rem;
+    width: 20vw;
+    border: none;
+    border-radius: 0.5rem;
+}
+.search-input input:focus{
+   outline: blueviolet;
+}
+#btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(14, 189, 253);
+    color: black;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 30px;
+    text-align: center;
+}
+.btn button{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.newsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vw;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* height: auto; */
+    margin:1.5rem;
+    border-radius: 0.75rem;
+    background-color: white;
+    
+}
+.news-Card{
+    border: 10px solid red;
+}
+.image img{
+    width: 20vw;
+    height: 40vh;
+}
+.image{
+    padding-top: 10px;
+
+}
+.news-info{
+    padding: 1.5rem;
+    
+}
+.news-info h4{
+    color: blueviolet;
+    margin:1rem 0rem;
+    
+}
+.news-info h1{
+    margin:1rem 0rem;
+}
+.news-info p{
+    margin:1rem 0rem;
+}
+.btn button{
+    margin: 1rem;
+    padding: 1.25rem 0.5rem;
+    background-color: blueviolet;
+    border-radius: 1rem;
+    border: none;
+}
+.btn button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+
+}
